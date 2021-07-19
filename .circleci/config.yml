@@ -19,4 +19,4 @@ workflows:
           - node/with-cache:
             steps:
               - run: npm install
-            - run: npm run test
+              - run: npm run test
